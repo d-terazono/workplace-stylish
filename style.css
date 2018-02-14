@@ -1,0 +1,47 @@
+@-moz-document regexp("https://.*\\.facebook\\.com/.*") {
+@media screen and (min-width: 1300px) {
+    html ._2xk0._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
+        width: 100%;
+    }
+    #globalContainer {
+        margin-left: calc(50% - 720px);
+    }
+    #rightCol {
+        position: absolute;
+        top: 0;
+        left: calc(100% - 180px);
+    }
+}
+}
+
+@-moz-document regexp("https://.*\\.facebook\\.com/notifications/hub/.*") {
+@media screen and (min-width: 1300px) {
+    ._18ho {
+        width: 90%;
+        max-width: 1500px;
+    }
+    ._5zlf #globalContainer,
+    ._5zlf.fbx #globalContainer {
+        max-width: 1500px;
+    }
+    /* Notification list */
+    ._3aaj {
+        max-width: 491px;
+        min-width: 350px;
+    }
+    ._44_u {
+        min-width: 380px;
+    }
+    /* Feed panel */
+    ._gbm,
+    ._37nm {
+        max-width: 1000px;
+        min-width: 502px;
+        width: 60%;
+    }
+    /* New feed post */
+    ._2xe6 {
+        width: 752px;
+    }
+}
+}
