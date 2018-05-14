@@ -2,15 +2,15 @@
 /* Hidden GIF */
     /* Workplace Chat */
     img._mxz.img,
-    img._52mr.img[src*=".gif?oh="] {
+    img._52mr.img[src*=".gif?"] {
         visibility: hidden;
     }
     /* Chat on workplace */
-    ._55pk._59go ._4yp6._3lk2 div[style*=".gif?oh="] {
+    ._55pk._59go ._4yp6._3lk2 div[style*=".gif?"] {
         visibility: hidden;
     }
     /* Post comment */
-    ._53j5 video {
+    ._53j5 video[src*=".mp4?"] {
         visibility: hidden;
     }
 }
